@@ -57,7 +57,7 @@
   /* Shadows */
   --shadow-card: 0 4px 30px rgba(0, 0, 0, 0.3);
   --shadow-hover: 0 8px 40px rgba(108, 99, 255, 0.15);
-  --shadow-glow: 0 0 40px rgba(108, 99, 255, 0.2);
+  --overflow: hidden;: 0 0 40px rgba(108, 99, 255, 0.2);
 }
 
 /* ============================================
@@ -570,8 +570,8 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: var(--shadow-glow);
+  overflow: hidden;
 }
-
 .avatar-ring {
   position: absolute;
   top: 50%;
